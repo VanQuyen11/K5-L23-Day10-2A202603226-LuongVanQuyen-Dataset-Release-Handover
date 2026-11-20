@@ -1,0 +1,74 @@
+{
+  "candidates": [
+    {
+      "image": "img_0022",
+      "type": "instance_merge",
+      "detail": "segment 12012042 (car) covers multiple boxes"
+    },
+    {
+      "image": "img_0057",
+      "type": "class_swap",
+      "detail": "det=car vs pan=truck (iou=0.99, cov=1.00)"
+    },
+    {
+      "image": "img_0083",
+      "type": "missing_box",
+      "detail": "pan=horse area=2364"
+    },
+    {
+      "image": "img_0084",
+      "type": "class_swap",
+      "detail": "det=fork vs pan=knife (iou=1.00, cov=1.00)"
+    },
+    {
+      "image": "img_0086",
+      "type": "instance_merge",
+      "detail": "segment 2281878 (person) covers multiple boxes"
+    },
+    {
+      "image": "img_0095",
+      "type": "class_swap",
+      "detail": "det=truck vs pan=car (iou=0.99, cov=1.00)"
+    },
+    {
+      "image": "img_0130",
+      "type": "instance_merge",
+      "detail": "segment 15748771 (donut) covers multiple boxes"
+    },
+    {
+      "image": "img_0162",
+      "type": "bbox_drift",
+      "detail": "cls=parking meter (iou=0.61, cov=0.77, cbox=0.97)"
+    },
+    {
+      "image": "img_0182",
+      "type": "instance_merge",
+      "detail": "segment 685554 (motorcycle) covers multiple boxes"
+    },
+    {
+      "image": "img_0183",
+      "type": "instance_merge",
+      "detail": "segment 8192830 (person) covers multiple boxes"
+    },
+    {
+      "image": "img_0193",
+      "type": "instance_merge",
+      "detail": "segment 5878183 (horse) covers multiple boxes"
+    },
+    {
+      "image": "img_0214",
+      "type": "instance_merge",
+      "detail": "segment 2222173 (person) covers multiple boxes"
+    },
+    {
+      "image": "img_0219",
+      "type": "class_swap",
+      "detail": "det=microwave vs pan=spoon (iou=0.99, cov=1.00)"
+    },
+    {
+      "image": "img_0247",
+      "type": "class_swap",
+      "detail": "det=sandwich vs pan=stop sign (iou=1.00, cov=1.00)"
+    }
+  ]
+}
