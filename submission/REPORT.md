@@ -15,7 +15,10 @@
 <<>>
 
 ## 5. Truy vết
-<<Tiêu chí tầng a/b, vì sao lấy guideline theo job.>>
+- **`tier_a`:** ảnh trong các cảnh được team AI nêu ở `incoming/ticket.md`, thuộc job dùng guideline cũ (`v1.2`) và có ít nhất một box detection lớp `bottle` (`2` ảnh).
+- **`tier_b`:** các ảnh khác cùng dùng guideline cũ và có box `bottle`, nhưng chưa được nêu trong ticket (`4` ảnh).
+- **`notify`:** mã người gán và người kiểm của các job chứa ảnh thuộc hai tầng (`5` người).
+- Phiên bản guideline được lấy từ `jobs.csv`, không lấy từ `metadata.json` của từng ảnh, vì metadata có thể chính là nơi chứa lỗi `guideline_mismatch` và làm sai phạm vi truy vết.
 
 ## 6. Bug hoặc điểm chưa rõ trong lab (nếu có)
 <<>>
